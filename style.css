@@ -1,0 +1,55 @@
+body {
+  font-family: 'Courgette', cursive;
+  background: url('https://i.imgur.com/Ny0aCIF.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: rgba(255, 192, 203, 0.92);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  max-width: 90%;
+  width: 360px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 1em;
+  margin: 10px;
+  outline: none;
+}
+
+button {
+  background-color: white;
+  color: #e91e63;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #fce4ec;
+}
+
+#noBtn {
+  position: absolute;
+  background-color: #fff;
+  color: #e91e63;
+}
+
+#subtitle {
+  font-size: 1.1em;
+  min-height: 100px;
+  line-height: 1.6em;
+  padding: 10px;
+}
